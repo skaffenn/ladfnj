@@ -1,6 +1,6 @@
 import asyncio
 from aiogram import Bot, Dispatcher
-from python.telegramgpt.data import config
+from data import config
 from handlers import router
 
 bot = Bot(token=config.bot_token)
